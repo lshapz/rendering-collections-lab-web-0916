@@ -12,7 +12,6 @@ RSpec.describe "orders_index_view" do
     5.times do
       Customer.create(:name => Faker::Name.name)
     end
-
     5.times do
       Invoice.create
     end
